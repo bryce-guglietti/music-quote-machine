@@ -29,6 +29,7 @@ const Quotes = () => {
 
   return (
     <div id="quote-box">
+      <div id="title"><h1>Music Quotes</h1></div>
       <div id="text"><p>{quote}</p></div>
       <div id="author"><p>{author}</p></div>
       <div id="buttons">
