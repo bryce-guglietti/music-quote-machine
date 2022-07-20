@@ -10,7 +10,7 @@ const Quotes = () => {
   }, []);
 
   const getQuote = () => {
-    let url = `https://github.com/sjcantony/quotes/blob/master/Music.json`;
+    let url = `./Music.json`;
     fetch(url)
       .then(res => res.json())
       .then(data => {
