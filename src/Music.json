@@ -1,4 +1,6 @@
-[{
+{
+	"quotes":[
+{
 	"quote": "One good thing about music, when it hits you, you feel no pain.",
 	"name": "Bob Marley"
 }, {
@@ -1073,3 +1075,4 @@
 	"quote": "Composers shouldn't think too much - it interferes with their plagiarism.",
 	"name": "Howard Dietz"
 }]
+}
