@@ -8,20 +8,26 @@
 
 body {
   font-family: 'Nunito', sans-serif;
-  background: #0059ff;
+  background: #59aa60;
 }
 
 #quote-box {
   background: #fff;
   width: 40rem;
   margin: 5rem auto;
-  padding: 1rem 1rem 1rem 0;
+  padding: .5rem 1rem 1rem 0;
   border-radius: 20px;
 }
 
 #text {
   font-size: 2rem;
   margin-bottom: 1rem;
+}
+
+#title{
+  font-size: 1rem;
+  margin-bottom: 2rem;
+  text-align: center;
 }
 
 #author {
@@ -39,7 +45,7 @@ body {
 
 
 #new-quote {
-  background: #0059ff;
+  background: #59aa60;
   border: none;
   color: #fff;
   padding: 1rem 1rem 1rem;
@@ -52,5 +58,7 @@ body {
 }
 
 #new-quote:hover {
+  border-color: rgb(30, 235, 122);
+  transition: .5s;
   opacity: 0.9;
 }
